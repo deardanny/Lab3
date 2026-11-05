@@ -12,3 +12,7 @@ docker run --rm -p 127.0.0.1:8080:8080 lab3
 ```
 
 Open <http://localhost:8080/>. Tomcat serves `ROOT.war` at the root URL. The welcome route is `getAnInterestingPicture`, and the form sends the keyword in the `searchWord` query parameter.
+
+## Built-in example
+
+Enter `Andy` (case-sensitive) in the keyword form. The bundled result page displays ten copies of an Andrew Carnegie portrait for this special case; other keywords use the picture-search result or a not-found message.
